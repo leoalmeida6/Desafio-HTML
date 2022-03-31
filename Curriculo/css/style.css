@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ * {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+    background-color: #F4FAFF;
+}
+
+h4 {
+    color: #2274A5;
+    /*color: #000000;*/
+    font-size: 20px;
+}
+
+body {
+    border: 2px solid black;
+    border-radius: 15px;
+    
+    padding: 20px;
+}
+
+p {
+    font-weight: 100;
+}
+
+header {
+    height: 250px;   
+    width: auto;
+
+    margin: 20px;
+
+    text-align: center;
+
+    display: flex;
+    justify-content:space-around;
+}
+
+main {
+    height: 250px;   
+    width: 99%;
+
+    margin: 25px;
+
+    text-align: center;
+
+    display: flex;
+    justify-content:space-around;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+}
+
+section {
+    height: auto;
+    width: auto;
+    margin: 10px;
+    border-radius: 20px;
+
+    border: 2px solid #41393E;
+    /*border: 2px solid rgb(175, 174, 174);*/
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.moldura-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid rgb(175, 174, 174);
+    
+}
+
+.moldura-descricao {
+    height: 200px;
+    width: 70%;  
+    border-radius: 20px;
+    border: 2px solid rgb(175, 174, 174);
+}
+
+.moldura-section {
+    height: 200px;
+    width: auto; 
+    border-radius: 20px;
+    border: 2px solid rgb(175, 174, 174);
+}
+
+.moldura-div {
+    height: 200px;
+    width: auto; 
+    border-radius: 20px;
+    border: 2px solid rgb(175, 174, 174);
+    text-align: center;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+
+
+footer {
+    margin: 50px;
+
+    height: auto;
+    width: auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    border-radius: 20px;
+    border: 2px solid rgb(175, 174, 174);
+}
+
+a {
+    text-align: center;
+    color:#2274A5;;
+    /*color: black;*/
+}
+
+/* HOVER */
+h4:hover, .mail:hover, .phone:hover, .linkedin:hover, a:hover {
+    color: #EDAE49;
+}
+
+/* ANIMATION */
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: swing; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+  }
