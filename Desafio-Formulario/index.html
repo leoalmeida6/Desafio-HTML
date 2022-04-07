@@ -13,61 +13,54 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- ANIMATE STYLE -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- FEATHER ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>feather.replace()</script>
 </head>
 
 <body>
-        <header>
-            <img src="./img/homer.png" class="img-homer my-element" alt="">
-        </header>
+    <section class="area-logo">
+        <img src="./img/homer-gif.gif" alt="Homer">
+    </section>
 
     <section class="container">
-        <main class="area-geral-login">
-            <p>L⠀g-in</p>
+        <header>
+            <span class="area-login">L⠀G-IN</span>
+        </header>
 
-            <form action="get">
-                <label for=""><span class="span-hover">Email</span></label><br>
-                <input type="email" name="email" id="mail" placeholder="Your email here" required>
 
-                <br>
+        <section class="form-container">
+            <main class="area-form">
 
-                <label for=""><span class="span-hover">Password</span></label><br>
-                <input type="password" name="password" id="pass" placeholder="Password" required>
+                <section class="area-space">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="Usuário">
+                </section>
 
-                <div class="forget-position">
-                    <a href="forget-password.html">Forget password?</a>
-                </div>
+                <section class="area-space">
+                    <i data-feather="mail"></i>
+                    <input type="email" placeholder="E-mail">
+                </section>
 
-                <input type="submit" value="Login" class="button">
+                <section class="area-space">
+                    <i data-feather="lock"></i>
+                    <input type="password" placeholder="Senha">
+                </section>
 
-            </form>
+                <section class="area-space">
+                    <button class="button-style">Cadastrar</button>
+                </section>
 
-        </main>
+                <section class="area-space"><br>
+                    <span>Já possui conta? <a href="https://www.google.com/">Clique aqui!</a></span>
+                </section>
+
+            </main>
+        </section>
     </section>
 
-    <section class="bloco-footer">
-        <footer>
-            <span>Don't have an account?</span> <a href="/sign-up.html">Sign-up</a>
-
-            <br>
-
-            <div class="div-flex">
-                <div>
-                    <a href="https://gmail.com">
-                        <img class="logo-gmail" src="./img/gmail.png" alt="">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://facebook.com">
-                        <img class="logo-face" src="./img/facebook.png" alt="">
-                    </a>
-                </div>
-            </div>
-
-        </footer>
-    </section>
-
-
-
+    <!-- FEATHER ICON -->
+    <script>feather.replace()</script>
 </body>
 
 </html>
