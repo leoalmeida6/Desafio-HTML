@@ -33,27 +33,33 @@
             <main class="area-form">
 
                 <section class="area-space">
-                    <i data-feather="user"></i>
-                    <input type="text" placeholder="Usuário">
+                    <form required>
+                        <i data-feather="user"></i>
+                        <input type="text" placeholder="Usuário" required>
                 </section>
 
                 <section class="area-space">
                     <i data-feather="mail"></i>
-                    <input type="email" placeholder="E-mail">
+                    <input type="email" placeholder="E-mail" required>
                 </section>
 
                 <section class="area-space">
                     <i data-feather="lock"></i>
-                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Senha" required>
                 </section>
 
                 <section class="area-space">
-                    <button class="button-style">Cadastrar</button>
+                    <input class="button-style" type="button" value="Cadastrar">
                 </section>
 
-                <section class="area-space"><br>
-                    <span>Já possui conta? <a href="https://www.google.com/">Clique aqui!</a></span>
+                <section class="area-space">
+                    <span>Não possui conta? <a href="/sign-up.html">Clique aqui!</a></span>
                 </section>
+
+                <section class="area-space">
+                    <span>Esqueceu sua conta? <a href="/forget-password.html">Clique aqui!</a></span>
+                </section>
+                </form>
 
             </main>
         </section>
